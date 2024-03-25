@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Greeter {
     @GetMapping(value ="/greet")
     public String index() {
-        return "Hello world!";
+        return "Hello world! test build on new commit/push";
     }
 }
